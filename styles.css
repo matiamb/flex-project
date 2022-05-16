@@ -95,3 +95,23 @@ button {
 img {
     height: 150px;
 }
+
+/*THIRD BLOCK*/
+
+.third-block {
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 50px 300px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
