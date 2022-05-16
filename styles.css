@@ -88,12 +88,19 @@ button {
 .four-images {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     align-items: center; 
 }
 
 img {
     height: 150px;
+}
+
+.block {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 /*THIRD BLOCK*/
@@ -114,4 +121,37 @@ img {
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+}
+
+/*FOURTH BLOCK*/
+
+.fourth-block {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+    padding: 50px 25px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.first-line {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
 }
